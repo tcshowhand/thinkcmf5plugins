@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+作者：Tangchao
+邮箱：79300975@qq.com
+*/
+* {padding: 0;margin: 0;box-sizing: border-box;}
+a{transition: all 0.35s ease 0s;}
+body{background:#EAEDF1;}
+.bg{width:100%;height:100%;position:absolute;left:0;top:0;color:#fff;}
+.bg #wrapper{width:500px;background:rgba(255,255,255,0.9);box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);padding:40px;border-radius:5px;position:absolute;left:50%;top:50%;margin-top:-180px;margin-left:-250px;}
+.bg .logo{text-align: center;font-size: 45px;margin:0!important;width:100%!important;height: 100px !important;background-size: auto 60px!important;color: #000;}
+.bg .container{text-align: center;font-size: 14px;color: #000;}
+.loginw{margin-bottom:0;}
+.bg .login{width:100%!important;}
+.bg dd.username,.bg dd.password,dd.submit{width:100%!important;margin-bottom:20px;}
+.bg .username,.bg .userbtn {line-height: 35px!important;height: 35px!important;}
+.bg dd.username label,.bg dd.password label,.bg dd.captcha label{float: left;vertical-align: text-bottom;width:20%;padding:0!important;height:35px!important;line-height:35px!important;border-radius:3px 0 0 3px!important;text-align:center!important;}
+.bg input#input_username,.bg input#input_password,.bg input#input_captcha{width:80%;padding:0 1%!important;border-radius:0 3px 3px 0!important;height:35px!important;line-height:35px!important;border:1px solid #ddd!important;font-size:14px;font-family: "Microsoft YaHei", Verdana, sans-serif;color:#7e7e7e;}
+.login dl{height:auto!important;}
+.bg input[type='text'],.bg input[type='password']{border:0!important;}
+dd.checkbox{display:none;}
+.bg button#btnPost{width:100%!important;line-height:30px;border-radius:3px!important;background-color: #0099cc !important;border: 0;color: #fff;}
+.bg .divHeader{padding:0;line-height:50px;height:50px;font-weight:700;color:#fff;}
+.bg .login{height:auto;}
+.loginw .content > div > p{color:#000;}
+.loginw > form > p > a{color:#fff;padding:5px 10px;border-radius:2px;}
+body.short{background:url(img/login-bg.jpg) no-repeat center center transparent!important;background-attachment: fixed!important;
+background-size: cover!important;}
+body.short .bg{color:#7e7e7e;height:100%!important;background:url() no-repeat center center transparent!important;}
+body.short .bg #wrapper{height:auto!important;width:800px;margin-left:-400px;top:50px;margin-top:0;overflow:hidden;margin-bottom:50px;}
+.button {float: right;color: #ffffff;font-size: 14px;background: #3a6ea5;cursor: pointer;}
+.captcha{position: relative;margin-bottom: 20px;}
+.left #leftmenu .on a,.left #leftmenu #on a:hover,input.button, input[type="submit"], input[type="button"],.SubMenu span.m-now,.pagebar a:hover,.pagebar .now-page,dd.username label,dd.captcha label, dd.password label,.bg .divHeader,.loginw > form > p > a,.menu ul li.on a{background-color: #0099cc!important;}.left,.left #leftmenu li a,.bg,.left #leftmenu a:hover{background-color: #293038!important;}input.button, input[type="submit"], input[type="button"]{border: 1px solid #0099cc!important;}.pagebar a:hover,.pagebar .now-page{border: 1px solid #293038!important;}
+.menu ul li.on a{border-color:#0099cc;}

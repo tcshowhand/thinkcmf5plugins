@@ -1,0 +1,28 @@
+@charset "utf-8";
+.fixed-kefu{position: fixed;top:0;right: 0;width: 40px;height: 100%;background: #000;color: #fff;    z-index: 1030;}
+.fixed-kefu dl.clearfix{position: absolute;top:100px;left: 0;}
+.kefu-box1 li a{display: block;color: #d0cdcc; padding: 10px 5px;text-align: center;line-height: 17px;font-size: 12px;text-decoration: none;}
+.kefu-box1 li a:hover{background: #e01914;color: #fff;}
+.em-border{display: block; width: 25px;height: 1px;background: #595959;margin: 0 auto;}
+.kefu-box1 li i{display: inline-block;background-repeat: no-repeat;}
+.ico-kefu-qq{background-position: -2px -130px;background-image: url(../images/fixed-kefu-ico.png);width: 30px;height: 28px;}
+.ico-kefu-xs{background-position: 4px 0;background-image: url(../images/fixed-kefu-ico4.png);width: 30px;height: 20px;}
+.kefu-box2 li{margin-top: 10px;position: relative;}
+.kefu-box2 li a{display: block;color: #d0cdcc; padding:0 5px;}
+.kefu-box2 li a:hover,.gotop a:hover{background: #e01914;color: #fff;}
+.kefu-box2 li a i{width: 30px;height: 38px;display:block;background-repeat: no-repeat;}
+.ico-kefu-1{background-position:center center;background-image: url(../images/fixed-kefu-ico1.png);}
+.ico-kefu-2{background-position:center -60px;background-image: url(../images/fixed-kefu-ico.png);}
+.ico-kefu-3{background-position:center -92px;background-image: url(../images/fixed-kefu-ico.png);}
+.ico-kefu-4{background-position:center center;background-image: url(../images/fixed-kefu-ico2.png);}
+.kefu-box2 li .kefu-span{position: absolute;right: 40px;top:0;height: 38px;width: 94px;text-align: center;display: none;}
+.kefu-span em{display: block;position: absolute;right: 10px;top:0;width: 84px;line-height: 38px;height: 38px;background-color: #494949;}
+.kefu-span em i{position: absolute;top:50%;right: -6px;margin-top: -19px;color:#494949;font-size: 12px;display: block;}
+.kefu-box2 li .kefu-weixin{position: absolute;right: 34px;top:-80px;width: 185px;display: none;}
+.kefu-box2 li .kefu-weixin img{width: 178px;}
+.gotop{position: absolute;bottom: 40px;left: 0;width: 40px;}
+.gotop a{display: block;color: #d0cdcc; padding:0 5px;}
+.gotop .kefu-span{position: absolute;right: 40px;top:20px;height: 38px;width: 94px;text-align: center;display: none;}
+.ico-kefu-top{width: 30px;height: 38px;display:block;background-repeat: no-repeat;background-position:center -185px;background-image: url(../images/fixed-kefu-ico.png);margin-top: 20px;}
+.fixed-kefu div, h1, h2, h3, h4, h5, p, form, ul, label, input, textarea, img, span, dl, dt, dd {margin: 0px;padding: 0;outline: 0;}
+.fixed-kefu li {list-style:none}

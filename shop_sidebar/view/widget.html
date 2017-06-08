@@ -1,0 +1,26 @@
+<link href="__PLUGIN_TMPL__/style/main.css" rel="stylesheet">
+<div class="fixed-kefu">
+    <dl class="clearfix">
+        <dd class="kefu-box1">
+            <ul>
+                <li><a href="{$config['qq']}" target="_blank"><i class="ico-kefu-qq"></i><p>在线客服</p></a><em class="em-border"></em></li>
+                <li><a href="{$config['novice']}" target="_blank"><i class="ico-kefu-xs"></i><p>新手入门</p></a><em class="em-border"></em></li>
+            </ul>
+        </dd>
+        <dd class="kefu-box2">
+            <ul>
+                <li><a href="{$config['invitation']}" target="_blank"><i class="ico-kefu-1"></i></a><span class="kefu-span"><em>邀请有奖 </em></span></li>
+                <li><a href="{$config['business']}" target="_blank"><i class="ico-kefu-2"></i></a><span class="kefu-span"><em>商家入驻 </em></span></li>
+                <li><a href="#"><i class="ico-kefu-3"></i></a><span class="kefu-weixin"><img src="__ROOT__/upload/{$config['image']}"></span></li>
+                <li><a href="{$config['opinion']}" target="_blank"><i class="ico-kefu-4"></i></a><span class="kefu-span"><em>意见反馈 </em></span></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="gotop">
+        <em class="em-border"></em><a href="javascript:;"><i class="ico-kefu-top"></i></a><span class="kefu-span"><em>回到顶部 </em></span>
+    </dl>
+</div>
+<if condition="$config['radio']">
+<script src="__PLUGIN_TMPL__/script/jquery-1.10.2.min.js"></script>
+</if>
+<script src="__PLUGIN_TMPL__/script/main.js"></script>
